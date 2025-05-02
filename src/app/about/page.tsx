@@ -31,7 +31,7 @@ export default function AboutPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Story</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Story</h2>
             
             {/* Story Timeline */}
             <div className="relative">
@@ -43,7 +43,7 @@ export default function AboutPage() {
                 {/* Beginning */}
                 <div className="relative flex items-center">
                   <div className="w-1/2 pr-8 text-right">
-                    <h3 className="text-2xl font-semibold text-emerald-700 mb-4">The Beginning</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Beginning</h3>
                     <p className="text-gray-700">
                       During my college years as an engineering student, I struggled to find purpose in academics. I felt lost — unsure of my path, uncertain about the future.
                     </p>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                   <div className="w-1/2 pr-8"></div>
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
                   <div className="w-1/2 pl-8">
-                    <h3 className="text-2xl font-semibold text-emerald-700 mb-4">The Discovery</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Discovery</h3>
                     <p className="text-gray-700">
                       Eventually, I couldn't complete my engineering degree. The answer came unexpectedly — in the form of a job at a local car workshop. There, I discovered a new side of myself.
                     </p>
@@ -67,7 +67,7 @@ export default function AboutPage() {
                 {/* The Idea */}
                 <div className="relative flex items-center">
                   <div className="w-1/2 pr-8 text-right">
-                    <h3 className="text-2xl font-semibold text-emerald-700 mb-4">The Idea</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Idea</h3>
                     <p className="text-gray-700">
                       That's when the idea struck me: "Why not start a garage of my own?" My father supported me completely, suggesting we build on our own land.
                     </p>
@@ -81,7 +81,7 @@ export default function AboutPage() {
                   <div className="w-1/2 pr-8"></div>
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
                   <div className="w-1/2 pl-8">
-                    <h3 className="text-2xl font-semibold text-emerald-700 mb-4">Kavin Motors is Born</h3>
+                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">Kavin Motors is Born</h3>
                     <p className="text-gray-700">
                       Despite mixed reactions from people around us, we started small with just a handful of tools, limited resources, and a team of five. Every step forward was hard-earned.
                     </p>
@@ -97,11 +97,11 @@ export default function AboutPage() {
       <section className="py-16 bg-emerald-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Growth Through the Years</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Growth Through the Years</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-semibold text-emerald-700 mb-4">Our Journey</h3>
+                <h3 className="text-2xl font-bold text-emerald-700 mb-4">Our Journey</h3>
                 <p className="text-gray-700 mb-6">
                   Fast forward to today — it's been nearly 8 years since we began our journey, and Kavin Motors has grown into a trusted name in automotive care in Nambiyur, Erode.
                 </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-semibold text-emerald-700 mb-4">New Chapter</h3>
+                <h3 className="text-2xl font-bold text-emerald-700 mb-4">New Chapter</h3>
                 <p className="text-gray-700 mb-6">
                   We're now entering an exciting new chapter by expanding our garage with a dedicated car paint service unit.
                 </p>
@@ -128,7 +128,7 @@ export default function AboutPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Foundation</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Foundation</h2>
             
             <div className="bg-gray-50 p-8 rounded-lg shadow-sm border-l-4 border-emerald-500">
               <p className="text-lg text-gray-700 mb-6">
@@ -146,7 +146,7 @@ export default function AboutPage() {
       <section className="py-16 bg-emerald-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Milestones</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Milestones</h2>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
@@ -156,7 +156,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Customer Satisfaction</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Customer Satisfaction</h3>
                   <p className="text-gray-600">Served 1,000+ happy customers and counting</p>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Regional Reputation</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Regional Reputation</h3>
                   <p className="text-gray-600">Built a strong reputation in Erode, Coimbatore District</p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Service Expansion</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Service Expansion</h3>
                   <p className="text-gray-600">Expanded services to include advanced paint work, diagnostics, and wheel alignment</p>
                 </div>
               </div>
@@ -192,7 +192,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Expert Team</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
                   <p className="text-gray-600">Formed a dependable team that shares our values of quality and customer focus</p>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function AboutPage() {
       {/* Team Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Meet Our Team</h2>
           <div className="max-w-4xl mx-auto text-center">
             {/* Founder Profile */}
             <div className="inline-block flex flex-col items-center gap-4">
@@ -239,6 +239,31 @@ export default function AboutPage() {
                 <p className="text-[24px] font-bold text-emerald-600 leading-tight tracking-normal">Kavin Prasanth</p>
                 <p className="text-[10px] text-gray-600 leading-none font-medium mt-2">Founder</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose Kavin Motors</h2>
+            <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+              <ul className="space-y-8">
+                <li className="flex items-center">
+                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black text-2xl font-bold">Experienced Team</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black text-2xl font-bold">State-of-the-art Equipment</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black text-2xl font-bold">Customer Satisfaction Guaranteed</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

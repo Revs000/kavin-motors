@@ -36,14 +36,14 @@ export default function CarPaintingPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Custom & OEM-matched Paint Jobs</h2>
-              <p className="text-gray-600 mb-6">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Custom & OEM-matched Paint Jobs</h2>
+              <p className="text-gray-700 mb-6">
                 At Kavin Motors, we offer professional car painting services that transform your vehicle's appearance. 
                 Our expert team uses state-of-the-art equipment and premium quality paints to ensure a flawless finish 
                 that matches your expectations.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Our Painting Services Include:</h3>
+                <h3 className="text-xl font-bold text-gray-900">Our Painting Services Include:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                   <li>Full car repainting</li>
                   <li>Partial panel painting</li>
@@ -71,21 +71,21 @@ export default function CarPaintingPage() {
       {/* Process Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Painting Process</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Painting Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">1️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Preparation</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Preparation</h3>
               <p className="text-gray-600">Thorough cleaning, sanding, and masking to ensure perfect paint application</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">2️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Application</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Application</h3>
               <p className="text-gray-600">Professional spraying with premium paints in controlled environment</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">3️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Finishing</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Finishing</h3>
               <p className="text-gray-600">Quality checks, buffing, and final detailing for a showroom finish</p>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function CarPaintingPage() {
       {/* Gallery Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Before & After Gallery</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="relative h-64">
               <Image

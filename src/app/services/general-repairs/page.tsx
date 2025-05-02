@@ -34,7 +34,7 @@ export default function GeneralRepairsPage() {
       {/* Services Grid */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Repair Services</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Repair Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
@@ -46,7 +46,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Engine Repair</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Engine Repair</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Engine diagnostics</li>
                 <li>• Engine overhaul</li>
@@ -65,7 +65,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Brake Service</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Brake Service</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Brake pad replacement</li>
                 <li>• Rotor resurfacing</li>
@@ -84,7 +84,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Suspension</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Suspension</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Shock absorber replacement</li>
                 <li>• Strut replacement</li>
@@ -103,7 +103,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Transmission</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Transmission</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Transmission fluid change</li>
                 <li>• Clutch replacement</li>
@@ -122,7 +122,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Electrical Systems</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Electrical Systems</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Battery service</li>
                 <li>• Alternator repair</li>
@@ -141,7 +141,7 @@ export default function GeneralRepairsPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Diagnostics</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Diagnostics</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• Computer diagnostics</li>
                 <li>• Error code reading</li>
@@ -156,21 +156,21 @@ export default function GeneralRepairsPage() {
       {/* Why Choose Us */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">🛠️</div>
-              <h3 className="text-xl font-semibold mb-2">Expert Technicians</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Technicians</h3>
               <p className="text-gray-600">Certified professionals with years of experience in automotive repair</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">⚡</div>
-              <h3 className="text-xl font-semibold mb-2">Quick Service</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Quick Service</h3>
               <p className="text-gray-600">Efficient repairs without compromising on quality</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">💯</div>
-              <h3 className="text-xl font-semibold mb-2">Quality Parts</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Parts</h3>
               <p className="text-gray-600">Only genuine or high-quality compatible parts used</p>
             </div>
           </div>

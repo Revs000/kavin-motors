@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 const WhatsAppChat = () => {
   // WhatsApp number for Kavin Motors
-  const whatsappNumber = '917010731340'; // Removed + and - for proper WhatsApp API format
+  const whatsappNumber = '9345801993'; // Removed + and - for proper WhatsApp API format
   
   // Message that will be pre-filled when customer clicks the button
   const message = 'Hello! I would like to inquire about your services at Kavin Motors.';
   
   // Create the WhatsApp URL with the number and pre-filled message
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=91${whatsappNumber}&text=${encodeURIComponent(message)}`;
   
   return (
     <Link 

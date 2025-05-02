@@ -36,14 +36,14 @@ export default function DentRepairPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Paintless Dent Removal</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Paintless Dent Removal</h2>
               <p className="text-gray-600 mb-6">
                 At Kavin Motors, we specialize in paintless dent removal (PDR), a technique that allows us to remove dents 
                 without affecting the original paint finish. This method is cost-effective, environmentally friendly, and 
                 preserves your vehicle's original paint.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Our PDR Services Include:</h3>
+                <h3 className="text-xl font-bold text-gray-900">Our PDR Services Include:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                   <li>Hail damage repair</li>
                   <li>Door dings and creases</li>
@@ -80,14 +80,14 @@ export default function DentRepairPage() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-3xl font-bold mb-6">Scratch Repair & Refinishing</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Scratch Repair & Refinishing</h2>
               <p className="text-gray-600 mb-6">
                 Our scratch repair services restore your vehicle's appearance by carefully removing scratches and 
                 refinishing affected areas. We use advanced techniques and premium materials to ensure a seamless 
                 finish that matches your car's original paint.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Our Scratch Repair Services:</h3>
+                <h3 className="text-xl font-bold text-gray-900">Our Scratch Repair Services:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                   <li>Clear coat scratch removal</li>
                   <li>Deep scratch repair</li>
@@ -104,21 +104,21 @@ export default function DentRepairPage() {
       {/* Process Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Repair Process</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Repair Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">1️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Assessment</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Assessment</h3>
               <p className="text-gray-600">Thorough inspection to determine the best repair method for your specific damage</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">2️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Repair</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Repair</h3>
               <p className="text-gray-600">Expert application of PDR techniques or refinishing methods as needed</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">3️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Quality Check</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Check</h3>
               <p className="text-gray-600">Detailed inspection to ensure the repair meets our high standards</p>
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function DentRepairPage() {
       {/* Gallery Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Before & After Gallery</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="relative h-64">
               <Image

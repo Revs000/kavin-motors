@@ -5,12 +5,12 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-gray-50 py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-center text-gray-900 mb-12">Contact Us</h1>
         
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {/* Contact Information */}
           <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-2xl font-semibold text-emerald-600 mb-6">Get in Touch</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
             
             <div className="space-y-6">
               {/* Address */}
@@ -22,7 +22,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Address</h3>
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <MapPinIcon className="h-6 w-6 text-emerald-600" />
@@ -37,10 +37,6 @@ export default function ContactPage() {
                       <a href="https://www.kavinmotors.in" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-emerald-600">
                         www.kavinmotors.in
                       </a>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <PhoneIcon className="h-6 w-6 text-emerald-600" />
-                      <p className="text-gray-600">+91 1234567890</p>
                     </div>
                     <div className="flex items-center space-x-3">
                       <EnvelopeIcon className="h-6 w-6 text-emerald-600" />
@@ -58,9 +54,10 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                  <p className="text-gray-600">+91 99999 88888</p>
-                  <p className="text-gray-600">+91 77777 66666</p>
+                  <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
+                  <a href="tel:+919345801993" className="text-gray-600 hover:text-emerald-600">
+                    +91 93458 01993
+                  </a>
                 </div>
               </div>
 
@@ -72,7 +69,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Email</h3>
                   <a href="mailto:info@kavinmotors.in" className="text-gray-600 hover:text-emerald-600">
                     info@kavinmotors.in
                   </a>
@@ -87,7 +84,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 mb-1">Business Hours</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Business Hours</h3>
                   <p className="text-gray-600">Monday - Saturday: 9:00 AM - 7:00 PM</p>
                   <p className="text-gray-600 text-emerald-600 font-medium">Sunday: Closed</p>
                 </div>
@@ -97,7 +94,7 @@ export default function ContactPage() {
 
           {/* Quick Contact Form */}
           <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-2xl font-semibold text-emerald-600 mb-6">Send us a Message</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
             
             <form className="space-y-4">
               <div>
@@ -156,7 +153,7 @@ export default function ContactPage() {
 
         {/* Map Section */}
         <div className="mt-12 bg-white rounded-lg shadow-md p-8">
-          <h2 className="text-2xl font-semibold text-emerald-600 mb-6">Our Location</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Location</h2>
           <div className="aspect-video w-full rounded-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.727585894233!2d77.3230279746925!3d11.354597188831532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba91971239a392b%3A0xc05141966c294471!2sKavin%20Motors!5e0!3m2!1sen!2sin!4v1746075503091!5m2!1sen!2sin"

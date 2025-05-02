@@ -36,14 +36,14 @@ export default function InteriorCleaningPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Complete Interior Care</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Interior Care</h2>
               <p className="text-gray-600 mb-6">
                 Our interior cleaning service goes beyond basic cleaning. We use professional-grade equipment and 
                 eco-friendly products to thoroughly clean and sanitize every inch of your vehicle's interior, 
                 leaving it fresh and spotless.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Our Interior Cleaning Services Include:</h3>
+                <h3 className="text-xl font-bold text-gray-900">Our Interior Cleaning Services Include:</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                   <li>Upholstery deep cleaning</li>
                   <li>Carpet and floor mat cleaning</li>
@@ -70,21 +70,21 @@ export default function InteriorCleaningPage() {
       {/* Process Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Cleaning Process</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Cleaning Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">1️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Inspection</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Inspection</h3>
               <p className="text-gray-600">Detailed assessment of interior condition and specific cleaning needs</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">2️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Deep Cleaning</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Deep Cleaning</h3>
               <p className="text-gray-600">Professional cleaning of all interior surfaces and components</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">3️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Sanitization</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Sanitization</h3>
               <p className="text-gray-600">Complete sanitization and deodorization for a fresh interior</p>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function InteriorCleaningPage() {
       {/* Gallery Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Before & After Gallery</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="relative h-64">
               <Image

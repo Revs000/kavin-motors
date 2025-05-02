@@ -26,7 +26,7 @@ export default function BodyRestorationPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Complete Vehicle Restoration</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Vehicle Restoration</h2>
               <p className="text-gray-600 mb-6">
                 At Kavin Motors, our full body restoration service is a comprehensive process that brings your vehicle back to its original condition or better. We combine traditional craftsmanship with modern techniques to deliver exceptional results that exceed expectations.
               </p>
@@ -34,13 +34,20 @@ export default function BodyRestorationPage() {
                 Whether you have a classic car that needs a complete overhaul or a modern vehicle that has suffered significant damage, our expert team has the skills and experience to restore it to showroom quality.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Why Choose Our Restoration Service:</h3>
-                <ul className="list-disc list-inside space-y-2 text-gray-600">
-                  <li>Expert craftsmanship with attention to detail</li>
-                  <li>State-of-the-art equipment and facilities</li>
-                  <li>Genuine parts sourcing and installation</li>
-                  <li>Transparent process with regular updates</li>
-                  <li>Satisfaction guaranteed on all work</li>
+                <h3 className="text-xl font-bold text-gray-900">Why Choose Our Restoration Service:</h3>
+                <ul className="list-disc list-inside space-y-4 text-gray-600">
+                  <li className="flex items-center">
+                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-gray-900 text-lg font-semibold">Experienced Team</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-gray-900 text-lg font-semibold">State-of-the-art Equipment</span>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-gray-900 text-lg font-semibold">Customer Satisfaction Guaranteed</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -60,11 +67,11 @@ export default function BodyRestorationPage() {
       {/* Restoration Process Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Restoration Process</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Restoration Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">1️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Assessment & Planning</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Assessment & Planning</h3>
               <p className="text-gray-600">Thorough inspection and detailed evaluation to create a comprehensive restoration plan</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
@@ -87,7 +94,7 @@ export default function BodyRestorationPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">2️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Disassembly & Repair</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Disassembly & Repair</h3>
               <p className="text-gray-600">Careful disassembly and systematic repair of all vehicle components</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
@@ -110,7 +117,7 @@ export default function BodyRestorationPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="text-4xl mb-4">3️⃣</div>
-              <h3 className="text-xl font-semibold mb-2">Refinishing & Assembly</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Refinishing & Assembly</h3>
               <p className="text-gray-600">Professional painting, finishing, and careful reassembly of all components</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
@@ -138,7 +145,7 @@ export default function BodyRestorationPage() {
       {/* Services Included Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Services Included</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Services Included</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
@@ -150,7 +157,7 @@ export default function BodyRestorationPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-bold mb-4">Body Work</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Body Work</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-red-600 mr-2">✓</span>
@@ -184,7 +191,7 @@ export default function BodyRestorationPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-bold mb-4">Paint Work</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Paint Work</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-red-600 mr-2">✓</span>
@@ -218,7 +225,7 @@ export default function BodyRestorationPage() {
                   unoptimized
                 />
               </div>
-              <h3 className="text-xl font-bold mb-4">Finishing</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Finishing</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-red-600 mr-2">✓</span>
@@ -249,7 +256,7 @@ export default function BodyRestorationPage() {
       {/* Gallery Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Restoration Gallery</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image

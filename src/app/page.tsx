@@ -1,18 +1,38 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
+      {/* WhatsApp Chat Button */}
+      <a
+        href="https://wa.me/919345801993?text=Hi,%20I%20have%20a%20query%20about%20car%20services"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+        </svg>
+      </a>
+
       {/* Hero Section */}
       <section className="relative h-screen">
         <div className="absolute inset-0">
-        <Image
-            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2070&auto=format&fit=crop"
-            alt="Kavin Motors Garage"
+          <Image
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2083&auto=format&fit=crop"
+            alt="Car Service Garage"
             fill
             className="object-cover brightness-50"
-          priority
+            priority
             unoptimized
           />
         </div>
@@ -21,13 +41,13 @@ export default function Home() {
             Est. 2017 • Trusted by 1000+ Customers
           </div>
           
-          <h1 className="text-4xl md:text-7xl font-black text-white mb-8 text-center pt-20 tracking-tight">
-            <span className="bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent">Precision Repairs</span>
-            <span className="block mt-2 bg-gradient-to-r from-gray-300 to-gray-100 bg-clip-text text-transparent">Flawless Finish</span>
-          </h1>
-          
           <div className="flex-1 flex flex-col justify-center items-center">
-            <p className="text-3xl font-extrabold text-emerald-400 mb-6 text-center tracking-wider">
+            <h1 className="text-4xl md:text-7xl font-black text-white mb-8 text-center tracking-tight">
+              <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">Precision Repairs</span>
+              <span className="block mt-2 bg-gradient-to-r from-gray-200 to-white bg-clip-text text-transparent">Flawless Finish</span>
+            </h1>
+            
+            <p className="text-3xl font-extrabold text-white mb-6 text-center tracking-wider">
               Comprehensive Car Care Services
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-xl text-white mb-6">
@@ -76,51 +96,51 @@ export default function Home() {
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">Our Services</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-800">Our Services</h2>
+          <p className="text-gray-700 text-center mb-12 max-w-2xl mx-auto">
             Experience excellence in every aspect of car care with our comprehensive range of services
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"></div>
-              <h3 className="text-xl font-semibold mb-2">Custom Full-Body Paint Service</h3>
-              <p className="text-gray-600 mb-4">Complete exterior transformation with premium paint</p>
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">🚘</div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Custom Full-Body Paint Service</h3>
+              <p className="text-gray-700 mb-4">Complete exterior transformation with premium paint</p>
               <Link href="/services/car-painting" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"></div>
-              <h3 className="text-xl font-semibold mb-2">General Repairs</h3>
-              <p className="text-gray-600 mb-4">Engine, brakes, suspension, etc.</p>
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">🔧</div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">General Repairs</h3>
+              <p className="text-gray-700 mb-4">Engine, brakes, suspension, etc.</p>
               <Link href="/services/general-repairs" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"></div>
-              <h3 className="text-xl font-semibold mb-2">Dent & Scratch Repair</h3>
-              <p className="text-gray-600 mb-4">Paintless dent removal and refinishing</p>
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">🛠️</div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Dent & Scratch Repair</h3>
+              <p className="text-gray-700 mb-4">Paintless dent removal and refinishing</p>
               <Link href="/services/dent-repair" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"></div>
-              <h3 className="text-xl font-semibold mb-2">Full Body Restoration</h3>
-              <p className="text-gray-600 mb-4">Classic car restoration and detailing</p>
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">🛻</div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Full Body Restoration</h3>
+              <p className="text-gray-700 mb-4">Classic car restoration and detailing</p>
               <Link href="/services/body-restoration" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"></div>
-              <h3 className="text-xl font-semibold mb-2">Interior Cleaning</h3>
-              <p className="text-gray-600 mb-4">Deep interior cleaning and sanitizing</p>
+              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">🧽</div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Interior Cleaning</h3>
+              <p className="text-gray-700 mb-4">Deep interior cleaning and sanitizing</p>
               <Link href="/services/interior-cleaning" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
@@ -151,8 +171,8 @@ export default function Home() {
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold mb-6">About Us</h2>
-              <p className="text-gray-600 mb-6">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">About Us</h2>
+              <p className="text-gray-700 mb-6">
                 Serving car owners in Nambiyur, Erode for over 10 years with expert workmanship and honest service.
               </p>
               <ul className="space-y-3">
@@ -182,42 +202,42 @@ export default function Home() {
       {/* Gallery Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Work</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Our Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🚘🌟</div>
-              <h3 className="text-xl font-semibold mb-2">Custom Full-Body Paint Service</h3>
-              <p className="text-gray-600">Complete exterior transformation with premium paint</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Custom Full-Body Paint Service</h3>
+              <p className="text-gray-700">Complete exterior transformation with premium paint</p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🛠️🩹</div>
-              <h3 className="text-xl font-semibold mb-2">Dent Repair</h3>
-              <p className="text-gray-600">Paintless dent removal with perfect finish</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Dent Repair</h3>
+              <p className="text-gray-700">Paintless dent removal with perfect finish</p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🛻🧤</div>
-              <h3 className="text-xl font-semibold mb-2">Classic Car Restoration</h3>
-              <p className="text-gray-600">Complete restoration of vintage vehicles</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Classic Car Restoration</h3>
+              <p className="text-gray-700">Complete restoration of vintage vehicles</p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🧽🧼</div>
-              <h3 className="text-xl font-semibold mb-2">Interior Detailing</h3>
-              <p className="text-gray-600">Deep cleaning and sanitization of car interiors</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Interior Detailing</h3>
+              <p className="text-gray-700">Deep cleaning and sanitization of car interiors</p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🧰🪞</div>
-              <h3 className="text-xl font-semibold mb-2">Scratch Removal</h3>
-              <p className="text-gray-600">Professional scratch repair and paint matching</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Scratch Removal</h3>
+              <p className="text-gray-700">Professional scratch repair and paint matching</p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
               <div className="text-6xl mb-4">🧴✨</div>
-              <h3 className="text-xl font-semibold mb-2">Full Body Polish</h3>
-              <p className="text-gray-600">Professional polishing for showroom shine</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Full Body Polish</h3>
+              <p className="text-gray-700">Professional polishing for showroom shine</p>
             </div>
           </div>
           <div className="text-center mt-8">
@@ -233,13 +253,20 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">What Our Customers Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow">
-              <p className="text-gray-600 mb-4">"They brought my car back to life – highly recommend!"</p>
-              <p className="font-semibold">- Raj K.</p>
+              <p className="text-gray-700 mb-4">"They brought my car back to life – highly recommend!"</p>
+              <p className="font-semibold text-gray-800">- Raj K.</p>
             </div>
-            {/* Add more testimonials here */}
+            <div className="bg-white p-6 rounded-lg shadow">
+              <p className="text-gray-700 mb-4">"Professional service and excellent results. Will definitely come back!"</p>
+              <p className="font-semibold text-gray-800">- Priya M.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow">
+              <p className="text-gray-700 mb-4">"Best car service in town. Very satisfied with their work."</p>
+              <p className="font-semibold text-gray-800">- Kumar S.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -247,41 +274,32 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Book Your Service</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Get in Touch</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <form className="space-y-4">
-                <input type="text" placeholder="Your Name" className="w-full p-3 border rounded-md" />
-                <input type="text" placeholder="Vehicle Model" className="w-full p-3 border rounded-md" />
-                <select className="w-full p-3 border rounded-md">
-                  <option>Select Service</option>
-                  <option>Car Painting</option>
-                  <option>General Repairs</option>
-                  <option>Dent & Scratch Repair</option>
-                  <option>Full Body Restoration</option>
-                  <option>Interior Cleaning</option>
-                </select>
-                <input type="date" className="w-full p-3 border rounded-md" />
-                <button className="w-full bg-emerald-600 text-white py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
-                  Book Now
-                </button>
-              </form>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact Information</h3>
+              <div className="space-y-4">
+                <div className="flex items-center">
+                  <span className="mr-3">📞</span>
+                  <a href="tel:+919345801993" className="text-gray-700 hover:text-emerald-600 transition-colors">
+                    +91 93458 01993
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-3">📧</span>
+                  <span className="text-gray-700">info@kavinmotors.com</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-3">📍</span>
+                  <span className="text-gray-700">Nambiyur, Erode</span>
+                </div>
+              </div>
             </div>
             <div>
-              <div className="space-y-4">
-                <p className="flex items-center">
-                  <span className="mr-2">📍</span>
-                  Nambiyur, Erode
-                </p>
-                <p className="flex items-center">
-                  <span className="mr-2">📞</span>
-                  [0000000000]
-                </p>
-                <p className="flex items-center">
-                  <span className="mr-2">✉️</span>
-                  [Your Email]
-                </p>
-                {/* Add Google Maps embed here */}
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Operating Hours</h3>
+              <div className="space-y-2">
+                <p className="text-gray-700">Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                <p className="text-gray-700">Sunday: Closed</p>
               </div>
             </div>
           </div>
@@ -300,7 +318,7 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
-                <li><Link href="/learn-more" className="text-gray-400 hover:text-white">Services</Link></li>
+                <li><Link href="/services" className="text-gray-400 hover:text-white">Services</Link></li>
                 <li><Link href="/gallery" className="text-gray-400 hover:text-white">Gallery</Link></li>
                 <li><Link href="/quote" className="text-gray-400 hover:text-white">Get a Quote</Link></li>
                 <li><Link href="/appointment" className="text-gray-400 hover:text-white">Book Appointment</Link></li>
@@ -310,13 +328,15 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Operating Hours</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>Monday - Saturday: 9:00 AM - 7:00 PM</li>
-                <li className="text-emerald-400 font-medium">Sunday: Closed</li>
+                <li>Sunday: Closed</li>
               </ul>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
               <div className="flex space-x-4">
-                {/* Add social media icons here */}
+                <a href="#" className="text-gray-400 hover:text-white">Facebook</a>
+                <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
+                <a href="#" className="text-gray-400 hover:text-white">Twitter</a>
               </div>
             </div>
           </div>
