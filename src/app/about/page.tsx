@@ -217,33 +217,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Meet Our Team</h2>
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Founder Profile */}
-            <div className="inline-block flex flex-col items-center gap-4">
-              <div className="bg-gray-50 p-[1px] rounded-sm shadow-sm w-[16px] h-[20px] overflow-hidden border border-gray-100">
-                <Image
-                  src="/images/kavin-profile.jpg"
-                  alt="Kavin - Founder"
-                  width={16}
-                  height={20}
-                  className="w-full h-full object-cover"
-                  priority
-                  quality={100}
-                />
-              </div>
-              <div className="text-center">
-                <p className="text-[24px] font-bold text-emerald-600 leading-tight tracking-normal">Kavin Prasanth</p>
-                <p className="text-[10px] text-gray-600 leading-none font-medium mt-2">Founder</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Why Choose Us Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
