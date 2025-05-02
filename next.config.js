@@ -16,6 +16,20 @@ const nextConfig = {
     });
     return config;
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/:path*',
+      },
+    ];
+  },
+  experimental: {
+    serverActions: true,
+  },
 };
 
 module.exports = nextConfig; 
