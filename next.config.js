@@ -28,7 +28,9 @@ const nextConfig = {
     ];
   },
   experimental: {
-    serverActions: true,
+    serverActions: {
+      allowedOrigins: ['kavinmotors.in', '*.kavinmotors.in'],
+    },
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
