@@ -102,8 +102,8 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold text-emerald-700 mb-4">Our Journey</h3>
-                <p className="text-gray-700 mb-6">
-                  Fast forward to today — it's been nearly 8 years since we began our journey, and Kavin Motors has grown into a trusted name in automotive care in Nambiyur, Erode.
+                <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
+                  Fast forward to today — it's been nearly 8 years since we began our journey, and Kavin Motors has grown into a trusted name in automotive care in Nambiyur, Erode, Tirupur and Coimbatore.
                 </p>
                 <p className="text-gray-700">
                   We're proud of the progress we've made and the relationships we've built along the way.
