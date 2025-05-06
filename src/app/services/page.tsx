@@ -49,7 +49,7 @@ export default function ServicesPage() {
           <h2 className="text-4xl font-black text-center mb-12 tracking-tight">
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Our Services</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Car Painting */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
               <div className="text-4xl mb-4">🚘🌟</div>
@@ -147,6 +147,22 @@ export default function ServicesPage() {
                 Learn More 
                 <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
+            </div>
+
+            {/* New Engine Diagnostics Service Card */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Engine Diagnostics</h3>
+                <p className="text-gray-600 mb-4">
+                  Advanced diagnostic services to identify and resolve engine issues using state-of-the-art equipment.
+                </p>
+                <Link href="/services/engine-diagnostics" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
+                  Learn More
+                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
