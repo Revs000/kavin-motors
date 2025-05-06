@@ -6,11 +6,11 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gray-900">
+      <section className="relative py-8 sm:py-12 md:py-20 bg-gray-900">
         <div className="absolute inset-0">
           <Image
-            src="/images/about-hero.jpg"
-            alt="Kavin Motors Team"
+            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop"
+            alt="Our Team"
             fill
             className="object-cover brightness-50"
             priority
@@ -18,76 +18,27 @@ export default function AboutPage() {
           />
         </div>
         <div className="relative container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">
-            About Kavin Motors
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black text-white mb-4 sm:mb-6 text-center tracking-tight">
+            <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">Our Story</span>
+            <span className="block mt-2 bg-gradient-to-r from-gray-200 to-white bg-clip-text text-transparent">of Excellence</span>
           </h1>
-          <p className="text-xl text-gray-200 text-center max-w-3xl mx-auto">
-            Our journey of excellence in automotive care since 2017
-          </p>
         </div>
       </section>
 
-      {/* Our Story Section */}
-      <section className="py-16 bg-white">
+      {/* About Content */}
+      <section className="py-8 sm:py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Story</h2>
-            
-            {/* Story Timeline */}
-            <div className="relative">
-              {/* Timeline Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-emerald-200"></div>
-              
-              {/* Timeline Items */}
-              <div className="space-y-12">
-                {/* Beginning */}
-                <div className="relative flex items-center">
-                  <div className="w-1/2 pr-8 text-right">
-                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Beginning</h3>
-                    <p className="text-gray-700">
-                      During my college years as an engineering student, I struggled to find purpose in academics. I felt lost — unsure of my path, uncertain about the future.
-                    </p>
-                  </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
-                  <div className="w-1/2 pl-8"></div>
-                </div>
-                
-                {/* Discovery */}
-                <div className="relative flex items-center">
-                  <div className="w-1/2 pr-8"></div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
-                  <div className="w-1/2 pl-8">
-                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Discovery</h3>
-                    <p className="text-gray-700">
-                      Eventually, I couldn't complete my engineering degree. The answer came unexpectedly — in the form of a job at a local car workshop. There, I discovered a new side of myself.
-                    </p>
-                  </div>
-                </div>
-                
-                {/* The Idea */}
-                <div className="relative flex items-center">
-                  <div className="w-1/2 pr-8 text-right">
-                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">The Idea</h3>
-                    <p className="text-gray-700">
-                      That's when the idea struck me: "Why not start a garage of my own?" My father supported me completely, suggesting we build on our own land.
-                    </p>
-                  </div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
-                  <div className="w-1/2 pl-8"></div>
-                </div>
-                
-                {/* The Beginning of Kavin Motors */}
-                <div className="relative flex items-center">
-                  <div className="w-1/2 pr-8"></div>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-emerald-500"></div>
-                  <div className="w-1/2 pl-8">
-                    <h3 className="text-2xl font-bold text-emerald-700 mb-4">Kavin Motors is Born</h3>
-                    <p className="text-gray-700">
-                      Despite mixed reactions from people around us, we started small with just a handful of tools, limited resources, and a team of five. Every step forward was hard-earned.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-emerald-500">
+              <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed font-medium">
+                From routine maintenance to advanced detailing and repair work, we offer a complete range of automotive services tailored to keep your vehicle in top shape. Whether it's expert car painting, dent removal, wheel alignment, interior cleaning, or full-body polishing, our skilled technicians use modern tools and techniques to ensure precision and quality in every job.
+              </p>
+              <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed font-medium">
+                We specialize in precision wheel alignment, thorough water washing, and accurate repair diagnostics. Additionally, our team offers expert car consultation services, helping customers make informed decisions about their vehicle's care and performance.
+              </p>
+              <p className="text-sm sm:text-base md:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed font-medium">
+                Fast forward to today — it's been nearly 8 years since we began our journey, and Kavin Motors has grown into a trusted name in automotive care in Nambiyur, Erode, Tirupur and Coimbatore.
+              </p>
             </div>
           </div>
         </div>
