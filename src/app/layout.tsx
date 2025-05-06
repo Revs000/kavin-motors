@@ -10,6 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kavin Motors - Car Service Center",
   description: "Professional car service and repair center in Nambiyur",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  themeColor: "#059669", // emerald-600
 };
 
 export default function RootLayout({
@@ -18,10 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Navbar />
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
         <SocialMediaLinks />
         <ChatWidget />
       </body>
