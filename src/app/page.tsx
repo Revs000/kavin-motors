@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">Complete exterior transformation with premium paint</p>
               <Link href="/services/car-painting" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
-                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">🚗</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
@@ -119,7 +119,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">Engine, brakes, suspension, etc.</p>
               <Link href="/services/general-repairs" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
-                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">🔧</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
@@ -128,7 +128,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">Paintless dent removal and refinishing</p>
               <Link href="/services/dent-repair" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
-                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">🛠️</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
@@ -137,7 +137,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">Classic car restoration and detailing</p>
               <Link href="/services/body-restoration" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
-                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">🚘</span>
               </Link>
             </div>
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
@@ -146,7 +146,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-700 mb-3 sm:mb-4">Deep interior cleaning and sanitizing</p>
               <Link href="/services/interior-cleaning" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center">
                 Learn More 
-                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
+                <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">🧽</span>
               </Link>
             </div>
           </div>
