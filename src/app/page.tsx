@@ -38,7 +38,7 @@ export default function Home() {
           />
         </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col">
-          <div className="absolute top-4 right-4 bg-white bg-opacity-90 px-2 py-1 sm:px-4 sm:py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-800 flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+          <div className="absolute top-4 right-4 bg-white bg-opacity-90 px-2 py-1 sm:px-4 sm:py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-800 hidden sm:flex items-center gap-1 sm:gap-2">
             <span>Est. 2017</span>
             <span className="hidden sm:inline">•</span>
             <span>Trusted by 1000+ Customers</span>
