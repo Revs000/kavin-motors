@@ -97,13 +97,10 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-12 sm:py-20 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-3 sm:mb-4 text-gray-800">Our Services</h2>
-          <p className="text-sm sm:text-base text-gray-700 text-center mb-8 sm:mb-12 max-w-2xl mx-auto">
-            Experience excellence in every aspect of car care with our comprehensive range of services
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Our Services</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-all duration-300 group">
               <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300">🚘</div>
               <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Custom Full-Body Paint Service</h3>
@@ -150,13 +147,6 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="text-center mt-8 sm:mt-12">
-            <Link href="/services">
-              <button className="bg-emerald-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md font-semibold hover:bg-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl">
-                View All Services
-              </button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -202,48 +192,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-12 sm:py-20 bg-white">
+      {/* Why Choose Us Section */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-gray-800">Our Work</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8">
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Why Choose Us</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-gray-50 p-6 rounded-lg shadow">
               <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🚘🌟</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Custom Full-Body Paint Service</h3>
-              <p className="text-sm sm:text-base text-gray-700">Complete exterior transformation with premium paint</p>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Expertise</h3>
+              <p className="text-sm sm:text-base text-gray-700">Our team of experts has been in the industry for over 10 years.</p>
             </div>
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🛠️🩹</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Dent Repair</h3>
-              <p className="text-sm sm:text-base text-gray-700">Paintless dent removal with perfect finish</p>
+            <div className="bg-gray-50 p-6 rounded-lg shadow">
+              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🔧🛠️</div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Quality</h3>
+              <p className="text-sm sm:text-base text-gray-700">We use high-quality materials and state-of-the-art equipment.</p>
             </div>
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🛻🧤</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Classic Car Restoration</h3>
-              <p className="text-sm sm:text-base text-gray-700">Complete restoration of vintage vehicles</p>
+            <div className="bg-gray-50 p-6 rounded-lg shadow">
+              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🧽🧴</div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Customer Service</h3>
+              <p className="text-sm sm:text-base text-gray-700">We prioritize customer satisfaction and provide exceptional service.</p>
             </div>
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🧽🧼</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Interior Detailing</h3>
-              <p className="text-sm sm:text-base text-gray-700">Deep cleaning and sanitization of car interiors</p>
-            </div>
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🧰🪞</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Scratch Removal</h3>
-              <p className="text-sm sm:text-base text-gray-700">Professional scratch repair and paint matching</p>
-            </div>
-            <div className="bg-gray-50 p-4 sm:p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
-              <div className="text-4xl sm:text-6xl mb-3 sm:mb-4">🧴✨</div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">Full Body Polish</h3>
-              <p className="text-sm sm:text-base text-gray-700">Professional polishing for showroom shine</p>
-            </div>
-          </div>
-          <div className="text-center mt-6 sm:mt-8">
-            <Link href="/gallery">
-              <button className="bg-emerald-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
-                View Full Gallery
-              </button>
-            </Link>
           </div>
         </div>
       </section>

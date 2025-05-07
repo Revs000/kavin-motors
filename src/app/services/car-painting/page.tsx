@@ -92,51 +92,6 @@ export default function CarPaintingPage() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="relative h-64">
-              <Image
-                src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop"
-                alt="Car Painting Result 1 - Sporty Red Finish"
-                fill
-                className="object-cover rounded-lg"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center">
-                <p>Sporty Red Finish</p>
-              </div>
-            </div>
-            <div className="relative h-64">
-              <Image
-                src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2069&auto=format&fit=crop"
-                alt="Car Painting Result 2 - Classic Black"
-                fill
-                className="object-cover rounded-lg"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center">
-                <p>Classic Black</p>
-              </div>
-            </div>
-            <div className="relative h-64">
-              <Image
-                src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070&auto=format&fit=crop"
-                alt="Car Painting Result 3 - Pearl White Premium"
-                fill
-                className="object-cover rounded-lg"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center">
-                <p>Pearl White Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-16 bg-red-600">
         <div className="container mx-auto px-4 text-center">
