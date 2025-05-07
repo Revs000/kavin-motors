@@ -54,21 +54,13 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-                <div className="relative h-32 mb-4">
-                  <Image
-                    src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2069&auto=format&fit=crop"
-                    alt="Brake Service"
-                    fill
-                    className="object-cover rounded-lg"
-                    unoptimized
-                  />
-                </div>
-                <h4 className="text-xl font-semibold mb-3">Brake Service</h4>
+                <div className="text-4xl mb-4">🚗</div>
+                <h4 className="text-xl font-semibold mb-3">Engine Repair</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Brake pad replacement</li>
-                  <li>• Rotor resurfacing</li>
-                  <li>• Brake fluid flush</li>
-                  <li>• ABS system repair</li>
+                  <li>• Engine overhaul</li>
+                  <li>• Timing belt replacement</li>
+                  <li>• Cylinder head repair</li>
+                  <li>• Engine rebuild</li>
                 </ul>
               </div>
             </div>
@@ -151,7 +143,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-red-600">
+      <section className="py-16 bg-emerald-600">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Need Professional Car Service?</h2>
           <p className="text-white mb-8 max-w-2xl mx-auto">
@@ -159,12 +151,12 @@ export default function ServicesPage() {
           </p>
           <div className="flex gap-4 justify-center">
             <Link href="/quote">
-              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+              <button className="bg-white text-black border border-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
                 Get a Free Quote
               </button>
             </Link>
             <Link href="/appointment">
-              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+              <button className="bg-white text-black border border-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
                 Book an Appointment
               </button>
             </Link>

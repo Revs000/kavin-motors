@@ -72,7 +72,7 @@ export default function DentRepairPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="order-2 md:order-1 relative h-[400px]">
               <Image
-                src="/images/Scratch Repair & Refinishing.jpg"
+                src="/images/images/ScratchRepair&Refinishing.jpg"
                 alt="Scratch Repair & Refinishing"
                 fill
                 className="object-cover rounded-lg"
