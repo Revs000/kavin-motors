@@ -10,8 +10,8 @@
             </p>
             <p className="text-gray-600">📞 +91 1234567890</p>
             <p className="text-gray-600">
-              <a href="mailto:info@kavinmotors.in" className="hover:text-emerald-600">
-                📧 info@kavinmotors.in
+              <a href="mailto:kavinnms@gmail.com" className="hover:text-emerald-600">
+                📧 kavinnms@gmail.com
               </a>
             </p>
           </div> 
