@@ -150,7 +150,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=2070&auto=format&fit=crop"
+                  src="/images/images/Bodywork.jpg"
                   alt="Body Work"
                   fill
                   className="object-cover"
@@ -184,7 +184,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop"
+                  src="/images/images/paintwork.jpg"
                   alt="Paint Work"
                   fill
                   className="object-cover"
@@ -218,7 +218,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2083&auto=format&fit=crop"
+                  src="/images/images/Finishing.jpg"
                   alt="Finishing"
                   fill
                   className="object-cover"
@@ -248,51 +248,6 @@ export default function BodyRestorationPage() {
                   <span>Interior restoration</span>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallery Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Before & After Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="relative h-64 rounded-lg overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=2070&auto=format&fit=crop"
-                alt="Before Restoration"
-                fill
-                className="object-cover"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-                <h3 className="text-lg font-semibold">Before Restoration</h3>
-              </div>
-            </div>
-            <div className="relative h-64 rounded-lg overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop"
-                alt="During Restoration"
-                fill
-                className="object-cover"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-                <h3 className="text-lg font-semibold">During Restoration</h3>
-              </div>
-            </div>
-            <div className="relative h-64 rounded-lg overflow-hidden">
-              <Image
-                src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2083&auto=format&fit=crop"
-                alt="After Restoration"
-                fill
-                className="object-cover"
-                unoptimized
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-                <h3 className="text-lg font-semibold">After Restoration</h3>
-              </div>
             </div>
           </div>
         </div>

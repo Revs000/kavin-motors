@@ -10,8 +10,8 @@ export default function Home() {
       {/* WhatsApp Chat Button */}
       <a
         href="https://wa.me/919345801993?text=Hi,%20I%20have%20a%20query%20about%20car%20services"
-        target="_blank"
-        rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-3 sm:p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
       >
         <svg
@@ -155,7 +155,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="relative h-[300px] sm:h-[400px]">
-              <Image
+          <Image
                 src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop"
                 alt="Our Team at Work"
                 fill

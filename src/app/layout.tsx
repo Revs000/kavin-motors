@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Navbar />
         <main className="flex-grow">
-          {children}
+        {children}
         </main>
         <SocialMediaLinks />
         <ChatWidget />

@@ -39,8 +39,8 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2070&auto=format&fit=crop"
-                  alt="Engine Repair"
+                  src="/images/images/Bodywork.jpg"
+                  alt="Body Work"
                   fill
                   className="object-cover"
                   unoptimized
@@ -58,7 +58,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?q=80&w=2070&auto=format&fit=crop"
+                  src="/images/images/Brake service.jpg"
                   alt="Brake Service"
                   fill
                   className="object-cover"
@@ -77,8 +77,8 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2083&auto=format&fit=crop"
-                  alt="Suspension Work"
+                  src="/images/images/suspension.jpg"
+                  alt="Suspension"
                   fill
                   className="object-cover"
                   unoptimized
@@ -96,8 +96,8 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2069&auto=format&fit=crop"
-                  alt="Transmission Service"
+                  src="/images/images/car painting.jpg"
+                  alt="Paint Work"
                   fill
                   className="object-cover"
                   unoptimized
@@ -115,7 +115,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1449130015084-2d48a345ae62?q=80&w=2068&auto=format&fit=crop"
+                  src="/images/images/Electrical systems.jpg"
                   alt="Electrical Systems"
                   fill
                   className="object-cover"
@@ -134,8 +134,8 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop"
-                  alt="Diagnostic Services"
+                  src="/images/images/Scratch Repair & Refinishing.jpg"
+                  alt="Scratch Repair & Refinishing"
                   fill
                   className="object-cover"
                   unoptimized

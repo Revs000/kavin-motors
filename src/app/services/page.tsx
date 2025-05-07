@@ -1,52 +1,173 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative py-8 sm:py-12 md:py-20 bg-gray-900">
+      <section className="relative h-[60vh]">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=2070&auto=format&fit=crop"
-            alt="Car Service Garage"
+            src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2064&auto=format&fit=crop"
+            alt="Car Services"
             fill
-            className="object-cover brightness-50"
+            className="object-cover brightness-75"
             priority
             unoptimized
           />
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
-        <div className="relative container mx-auto px-4">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black text-white mb-4 sm:mb-6 text-center tracking-tight">
-            <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">Explore Our Full Range</span>
-            <span className="block mt-2 bg-gradient-to-r from-gray-200 to-white bg-clip-text text-transparent">of Car Services</span>
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-gray-200 text-center max-w-3xl mx-auto px-4">
-            Comprehensive automotive care tailored to your vehicle's needs
-          </p>
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Our Services</h1>
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Comprehensive car care solutions for every need</p>
         </div>
       </section>
 
-      {/* Services Overview */}
-      <section className="py-8 sm:py-12 md:py-20">
+      {/* Main Services Section */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
-            {/* Service Cards */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-4">Engine Diagnostics</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
-                  Advanced diagnostic services to identify and resolve engine issues using state-of-the-art equipment.
-                </p>
-                <Link href="/services/engine-diagnostics" className="text-emerald-600 hover:text-emerald-700 font-medium inline-flex items-center text-sm sm:text-base">
-                  Learn More
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Full Range of Services</h2>
+          
+          {/* Engine & Mechanical Services */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Engine & Mechanical Services</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🔧</div>
+                <h4 className="text-xl font-semibold mb-3">Engine Diagnostics</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Computer diagnostics</li>
+                  <li>• Performance testing</li>
+                  <li>• Engine tune-up</li>
+                  <li>• Fuel system service</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">⚙️</div>
+                <h4 className="text-xl font-semibold mb-3">Transmission Service</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Transmission repair</li>
+                  <li>• Clutch replacement</li>
+                  <li>• Gearbox maintenance</li>
+                  <li>• Fluid changes</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="relative h-32 mb-4">
+                  <Image
+                    src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2069&auto=format&fit=crop"
+                    alt="Brake Service"
+                    fill
+                    className="object-cover rounded-lg"
+                    unoptimized
+                  />
+                </div>
+                <h4 className="text-xl font-semibold mb-3">Brake Service</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Brake pad replacement</li>
+                  <li>• Rotor resurfacing</li>
+                  <li>• Brake fluid flush</li>
+                  <li>• ABS system repair</li>
+                </ul>
               </div>
             </div>
-            {/* Add more service cards here */}
+          </div>
+
+          {/* Body & Paint Services */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Body & Paint Services</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🖌️</div>
+                <h4 className="text-xl font-semibold mb-3">Paint Services</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Full body painting</li>
+                  <li>• Color matching</li>
+                  <li>• Scratch repair</li>
+                  <li>• Paint protection</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🔨</div>
+                <h4 className="text-xl font-semibold mb-3">Dent Repair</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Paintless dent removal</li>
+                  <li>• Panel beating</li>
+                  <li>• Rust repair</li>
+                  <li>• Body alignment</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">✨</div>
+                <h4 className="text-xl font-semibold mb-3">Detailing</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Interior cleaning</li>
+                  <li>• Exterior detailing</li>
+                  <li>• Ceramic coating</li>
+                  <li>• Paint correction</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Maintenance Services */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Maintenance Services</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🛢️</div>
+                <h4 className="text-xl font-semibold mb-3">Oil & Filter Service</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Oil change</li>
+                  <li>• Filter replacement</li>
+                  <li>• Fluid top-up</li>
+                  <li>• Lubrication service</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🔧</div>
+                <h4 className="text-xl font-semibold mb-3">Suspension Service</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Shock absorber replacement</li>
+                  <li>• Wheel alignment</li>
+                  <li>• Ball joint service</li>
+                  <li>• Suspension repair</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-4xl mb-4">🔋</div>
+                <h4 className="text-xl font-semibold mb-3">Electrical Service</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Battery replacement</li>
+                  <li>• Alternator repair</li>
+                  <li>• Starter motor service</li>
+                  <li>• Wiring repairs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-red-600">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">Need Professional Car Service?</h2>
+          <p className="text-white mb-8 max-w-2xl mx-auto">
+            Get in touch with us for a free quote and consultation. Our experts will help you choose the right service for your vehicle.
+          </p>
+          <div className="flex gap-4 justify-center">
+            <Link href="/quote">
+              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+                Get a Free Quote
+              </button>
+            </Link>
+            <Link href="/appointment">
+              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+                Book an Appointment
+              </button>
+            </Link>
           </div>
         </div>
       </section>
