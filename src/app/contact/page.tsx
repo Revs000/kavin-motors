@@ -9,7 +9,7 @@ export default function ContactPage() {
       <section className="relative py-8 sm:py-12 md:py-20 bg-gray-900">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop"
+            src="/images/contact-hero.jp.jpg"
             alt="Contact Us"
             fill
             className="object-cover brightness-50"

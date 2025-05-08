@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="relative py-8 sm:py-12 md:py-20 bg-gray-900">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop"
+            src="/images/story-excellence.jpg"
             alt="Our Team"
             fill
             className="object-cover brightness-50"
@@ -176,15 +176,15 @@ export default function AboutPage() {
             <div className="bg-gray-50 p-8 rounded-lg shadow-md">
               <ul className="space-y-8">
                 <li className="flex items-center">
-                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black mr-4 text-4xl font-bold">•</span>
                   <span className="text-black text-2xl font-bold">Experienced Team</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black mr-4 text-4xl font-bold">•</span>
                   <span className="text-black text-2xl font-bold">State-of-the-art Equipment</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="text-black mr-4 text-4xl font-bold">✓</span>
+                  <span className="text-black mr-4 text-4xl font-bold">•</span>
                   <span className="text-black text-2xl font-bold">Customer Satisfaction Guaranteed</span>
                 </li>
               </ul>
@@ -200,15 +200,15 @@ export default function AboutPage() {
           <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
             Book an appointment today and let our experts take care of your vehicle
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/appointment">
-              <button className="bg-white text-black border border-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
-                Book an Appointment
+          <div className="flex gap-4 justify-center">
+            <Link href="/quote">
+              <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
+                Get a Free Quote
               </button>
             </Link>
-            <Link href="/quote">
-              <button className="bg-white text-black border border-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl">
-                Get a Free Quote
+            <Link href="/appointment">
+              <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
+                Book an Appointment
               </button>
             </Link>
           </div>

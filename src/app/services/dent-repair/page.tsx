@@ -21,13 +21,6 @@ export default function DentRepairPage() {
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Dent & Scratch Repair</h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Professional paintless dent removal and refinishing services</p>
-          <div className="flex gap-4">
-            <Link href="/quote">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition">
-                Get a Quote
-              </button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -72,7 +65,7 @@ export default function DentRepairPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="order-2 md:order-1 relative h-[400px]">
               <Image
-                src="/images/images/ScratchRepair&Refinishing.jpg"
+                src="/images/scratch-repair-new.jpg"
                 alt="Scratch Repair & Refinishing"
                 fill
                 className="object-cover rounded-lg"
@@ -126,14 +119,14 @@ export default function DentRepairPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-red-600">
+      <section className="py-16 bg-emerald-600">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Fix Your Vehicle?</h2>
           <p className="text-white mb-8 max-w-2xl mx-auto">
             Get in touch with us for a free quote and consultation. Our experts will assess your vehicle's damage and recommend the best repair solution.
           </p>
           <Link href="/quote">
-            <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+            <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
               Get a Free Quote
             </button>
           </Link>

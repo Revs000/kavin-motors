@@ -21,13 +21,6 @@ export default function CarPaintingPage() {
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Car Painting Services</h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Professional car painting with precision and quality</p>
-          <div className="flex gap-4">
-            <Link href="/quote">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition">
-                Get a Quote
-              </button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -93,14 +86,14 @@ export default function CarPaintingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-red-600">
+      <section className="py-16 bg-emerald-600">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Transform Your Car?</h2>
           <p className="text-white mb-8 max-w-2xl mx-auto">
             Get in touch with us for a free quote and consultation. Our experts will help you choose the perfect color and finish for your vehicle.
           </p>
           <Link href="/quote">
-            <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+            <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
               Get a Free Quote
             </button>
           </Link>

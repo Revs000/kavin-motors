@@ -50,10 +50,10 @@ export default function Home() {
               <span className="block mt-2 bg-gradient-to-r from-gray-200 to-white bg-clip-text text-transparent">Flawless Finish</span>
             </h1>
             
-            <p className="text-xl sm:text-3xl font-extrabold text-white mb-4 sm:mb-6 text-center tracking-wider">
+            <p className="text-xl sm:text-3xl font-extrabold text-white mb-8 sm:mb-12 text-center tracking-wider">
               Comprehensive Car Care Services
             </p>
-            <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-sm sm:text-xl text-white mb-4 sm:mb-6">
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-sm sm:text-xl text-white mb-8 sm:mb-12">
               <span className="px-3 py-2 sm:px-6 sm:py-3 bg-gradient-to-r from-emerald-500 to-green-700 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-emerald-400 group">
                 Expert Painting
               </span>
@@ -70,7 +70,7 @@ export default function Home() {
                 Routine Servicing
               </span>
             </div>
-            <p className="text-lg sm:text-xl text-emerald-400 text-center font-semibold mb-6 sm:mb-8">
+            <p className="text-xl sm:text-2xl md:text-3xl text-emerald-400 text-center font-semibold mb-8 sm:mb-12">
               in Nambiyur, Erode
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
               </button>
             </Link>
             <Link href="/quote" className="w-full sm:w-auto">
-              <button className="w-full bg-gradient-to-r from-gray-700 to-gray-900 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md font-semibold hover:from-gray-800 hover:to-gray-950 transition-all duration-300 shadow-lg hover:shadow-xl group">
+              <button className="w-full bg-white text-gray-900 px-6 sm:px-8 py-2 sm:py-3 rounded-md font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl border border-gray-200 group">
                 <span className="flex items-center justify-center">
                   <span className="mr-2">💰</span>
                   Get a Free Quote
@@ -241,27 +241,27 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">Get in Touch</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div className="text-center">
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact Information</h3>
               <div className="space-y-4">
-                <div className="flex items-center">
+                <div className="flex items-center justify-center">
                   <span className="mr-3">📞</span>
                   <a href="tel:+919345801993" className="text-gray-700 hover:text-emerald-600 transition-colors">
                     +91 93458 01993
                   </a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-center">
                   <span className="mr-3">📧</span>
                   <span className="text-gray-700">kavinnms@gmail.com</span>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-center">
                   <span className="mr-3">📍</span>
                   <span className="text-gray-700">Nambiyur, Erode</span>
                 </div>
               </div>
             </div>
-            <div>
+            <div className="text-center">
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Operating Hours</h3>
               <div className="space-y-2">
                 <p className="text-gray-700">Monday - Saturday: 9:00 AM - 7:00 PM</p>

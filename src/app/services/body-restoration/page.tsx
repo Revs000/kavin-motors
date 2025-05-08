@@ -11,13 +11,6 @@ export default function BodyRestorationPage() {
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Full Body Restoration</h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Transform your classic car to its former glory with our expert restoration services</p>
-          <div className="flex gap-4">
-            <Link href="/quote">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition">
-                Get a Quote
-              </button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -37,15 +30,15 @@ export default function BodyRestorationPage() {
                 <h3 className="text-xl font-bold text-gray-900">Why Choose Our Restoration Service:</h3>
                 <ul className="list-disc list-inside space-y-4 text-gray-600">
                   <li className="flex items-center">
-                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-black mr-3 text-2xl font-bold">•</span>
                     <span className="text-gray-900 text-lg font-semibold">Experienced Team</span>
                   </li>
                   <li className="flex items-center">
-                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-black mr-3 text-2xl font-bold">•</span>
                     <span className="text-gray-900 text-lg font-semibold">State-of-the-art Equipment</span>
                   </li>
                   <li className="flex items-center">
-                    <span className="text-emerald-600 mr-3 text-2xl font-bold">✓</span>
+                    <span className="text-black mr-3 text-2xl font-bold">•</span>
                     <span className="text-gray-900 text-lg font-semibold">Customer Satisfaction Guaranteed</span>
                   </li>
                 </ul>
@@ -75,19 +68,19 @@ export default function BodyRestorationPage() {
               <p className="text-gray-600">Thorough inspection and detailed evaluation to create a comprehensive restoration plan</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Initial condition assessment</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Damage documentation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Restoration scope definition</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Timeline and cost estimation</span>
                 </li>
               </ul>
@@ -98,19 +91,19 @@ export default function BodyRestorationPage() {
               <p className="text-gray-600">Careful disassembly and systematic repair of all vehicle components</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Complete disassembly</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Rust removal and metal repair</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Panel replacement if needed</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Structural integrity restoration</span>
                 </li>
               </ul>
@@ -121,19 +114,19 @@ export default function BodyRestorationPage() {
               <p className="text-gray-600">Professional painting, finishing, and careful reassembly of all components</p>
               <ul className="mt-4 space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Surface preparation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Professional painting</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Component reassembly</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Final detailing and protection</span>
                 </li>
               </ul>
@@ -150,7 +143,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Bodywork.jpg"
+                  src="/images/bodywork.jpg"
                   alt="Body Work"
                   fill
                   className="object-cover"
@@ -160,23 +153,23 @@ export default function BodyRestorationPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Body Work</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Rust repair and prevention</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Panel replacement</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Dent removal</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Gap alignment</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Structural repairs</span>
                 </li>
               </ul>
@@ -184,7 +177,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/paintwork.jpg"
+                  src="/images/paintwork.jpg"
                   alt="Paint Work"
                   fill
                   className="object-cover"
@@ -194,23 +187,23 @@ export default function BodyRestorationPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Paint Work</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Complete respray</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Color matching</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Clear coat application</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Paint protection film</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Custom color options</span>
                 </li>
               </ul>
@@ -218,7 +211,7 @@ export default function BodyRestorationPage() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Finishing.jpg"
+                  src="/images/finishing.jpg"
                   alt="Finishing"
                   fill
                   className="object-cover"
@@ -228,23 +221,23 @@ export default function BodyRestorationPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Finishing</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Polishing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Waxing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Ceramic coating</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Final detailing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">✓</span>
+                  <span className="text-black mr-2">•</span>
                   <span>Interior restoration</span>
                 </li>
               </ul>
@@ -283,7 +276,7 @@ export default function BodyRestorationPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-red-600">
+      <section className="py-16 bg-emerald-600">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Restore Your Vehicle?</h2>
           <p className="text-white mb-8 max-w-2xl mx-auto">
@@ -291,13 +284,8 @@ export default function BodyRestorationPage() {
           </p>
           <div className="flex gap-4 justify-center">
             <Link href="/quote">
-              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+              <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
                 Get a Free Quote
-              </button>
-            </Link>
-            <Link href="/appointment">
-              <button className="bg-white text-red-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
-                Book an Appointment
               </button>
             </Link>
           </div>

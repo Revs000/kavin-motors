@@ -20,14 +20,7 @@ export default function GeneralRepairsPage() {
         </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">General Repairs</h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Expert automotive repair services for all makes and models</p>
-          <div className="flex gap-4">
-            <Link href="/quote">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition">
-                Get a Quote
-              </button>
-            </Link>
-          </div>
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Comprehensive repair services for all your vehicle needs</p>
         </div>
       </section>
 
@@ -39,7 +32,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Enginerepair.jpg"
+                  src="/images/enginerepair.jpg"
                   alt="Engine Repair"
                   fill
                   className="object-cover object-center"
@@ -58,7 +51,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Brake service.jpg"
+                  src="/images/Brake service.jpg"
                   alt="Brake Service"
                   fill
                   className="object-cover"
@@ -77,7 +70,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/suspension.jpg"
+                  src="/images/suspension.jpg"
                   alt="Suspension"
                   fill
                   className="object-cover"
@@ -96,7 +89,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/transmission.jpg"
+                  src="/images/transmission.jpg"
                   alt="Transmission"
                   fill
                   className="object-cover object-center"
@@ -115,7 +108,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Electrical systems.jpg"
+                  src="/images/electrical-systems.jpg"
                   alt="Electrical Systems"
                   fill
                   className="object-cover"
@@ -134,7 +127,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/images/Diagnostics.jpg"
+                  src="/images/Diagnostics.jpg"
                   alt="Diagnostics"
                   fill
                   className="object-cover"
@@ -147,25 +140,6 @@ export default function GeneralRepairsPage() {
                 <li>• Error code reading</li>
                 <li>• Performance testing</li>
                 <li>• Sensor calibration</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/images/Scratch Repair & Refinishing.jpg"
-                  alt="Scratch Repair & Refinishing"
-                  fill
-                  className="object-cover object-center"
-                  unoptimized
-                />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Scratch Repair & Refinishing</h3>
-              <ul className="text-gray-600 space-y-2">
-                <li>• Scratch repair</li>
-                <li>• Refinishing</li>
-                <li>• Paint matching</li>
-                <li>• Bodywork repair</li>
               </ul>
             </div>
           </div>
@@ -204,7 +178,7 @@ export default function GeneralRepairsPage() {
             Get in touch with us for a detailed inspection and quote. Our expert team is ready to help get your vehicle back in perfect condition.
           </p>
           <Link href="/quote">
-            <button className="bg-white text-black border border-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+            <button className="bg-emerald-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-emerald-700 transition">
               Get a Free Quote
             </button>
           </Link>
