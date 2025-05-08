@@ -19,7 +19,7 @@ export default function AboutPage() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
-        <div className="relative container mx-auto px-4">
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
           <h1 className="text-4xl font-black text-white mb-4 text-center tracking-tight">
             <span className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">Our Story</span>
             <span className="block mt-2 bg-gradient-to-r from-gray-200 to-white bg-clip-text text-transparent">of Excellence</span>
