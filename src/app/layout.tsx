@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -7,11 +7,16 @@ import ChatWidget from "@/components/ChatWidget";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#059669',
+};
+
 export const metadata: Metadata = {
   title: "Kavin Motors - Car Service Center",
   description: "Professional car service and repair center in Nambiyur",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  themeColor: "#059669", // emerald-600
 };
 
 export default function RootLayout({
