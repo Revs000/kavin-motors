@@ -6,55 +6,57 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[45vh] sm:h-[50vh] md:h-[55vh]">
+      <section className="relative h-[50vh] md:h-[60vh]">
         <div className="absolute inset-0">
           <Image
             src="/images/our-services.jpg"
             alt="Car Services"
             fill
-            className="object-cover blur-[1px]"
+            className="object-cover"
             priority
+            sizes="(max-width: 768px) 100vw, 100vw"
             unoptimized
           />
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
-        <div className="relative container mx-auto px-4 sm:px-6 h-full flex flex-col justify-center items-center text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">Our Services</h1>
+        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Our Services</h1>
         </div>
       </section>
 
       {/* Main Services Section */}
-      <section className="py-12 sm:py-16 bg-white">
-        <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">Full Range of Services</h2>
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8 md:mb-12">Full Range of Services</h2>
           
           {/* Engine & Mechanical Services */}
-          <div className="mb-12 sm:mb-16">
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Engine & Mechanical Services</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
-                <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🔧</div>
-                <h4 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Engine Diagnostics</h4>
-                <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-600">
+          <div className="mb-12 md:mb-16">
+            <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">Engine & Mechanical Services</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-3xl md:text-4xl mb-4">🔧</div>
+                <h4 className="text-lg md:text-xl font-semibold mb-3">Engine Diagnostics</h4>
+                <ul className="space-y-2 text-gray-600">
                   <li>• Computer diagnostics</li>
                   <li>• Performance testing</li>
                   <li>• Engine tune-up</li>
                   <li>• Fuel system service</li>
                 </ul>
               </div>
-              <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
-                <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">⚙️</div>
-                <h4 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Transmission Service</h4>
-                <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-600">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-3xl md:text-4xl mb-4">⚙️</div>
+                <h4 className="text-lg md:text-xl font-semibold mb-3">Transmission Service</h4>
+                <ul className="space-y-2 text-gray-600">
                   <li>• Transmission repair</li>
                   <li>• Clutch replacement</li>
                   <li>• Gearbox maintenance</li>
                   <li>• Fluid changes</li>
                 </ul>
               </div>
-              <div className="bg-gray-50 p-4 sm:p-6 rounded-lg shadow-sm">
-                <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🚗</div>
-                <h4 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Engine Repair</h4>
-                <ul className="space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-600">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div className="text-3xl md:text-4xl mb-4">🚗</div>
+                <h4 className="text-lg md:text-xl font-semibold mb-3">Engine Repair</h4>
+                <ul className="space-y-2 text-gray-600">
                   <li>• Engine overhaul</li>
                   <li>• Timing belt replacement</li>
                   <li>• Cylinder head repair</li>

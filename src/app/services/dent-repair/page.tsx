@@ -6,21 +6,22 @@ export default function DentRepairPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[80vh]">
+      <section className="relative h-[50vh] md:h-[60vh]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1625046584009-ec4f5d9c8c6e?q=80&w=2070&auto=format&fit=crop"
             alt="Dent & Scratch Repair Service"
             fill
-            className="object-cover brightness-75"
+            className="object-cover"
             priority
+            sizes="(max-width: 768px) 100vw, 100vw"
             unoptimized
           />
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Dent & Scratch Repair</h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Professional paintless dent removal and refinishing services</p>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Dent & Scratch Repair</h1>
+          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl">Professional paintless dent removal and refinishing services</p>
         </div>
       </section>
 
@@ -46,12 +47,13 @@ export default function DentRepairPage() {
                 </ul>
               </div>
             </div>
-            <div className="relative h-[400px]">
+            <div className="relative h-[300px] md:h-[400px]">
               <Image
                 src="https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?q=80&w=2071&auto=format&fit=crop"
                 alt="Paintless Dent Removal Process"
                 fill
                 className="object-cover rounded-lg"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 unoptimized
               />
             </div>
@@ -63,12 +65,14 @@ export default function DentRepairPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="order-2 md:order-1 relative h-[400px]">
+            <div className="order-2 md:order-1 relative h-[300px] md:h-[400px]">
               <Image
                 src="/images/scratch-repair-new.jpg"
                 alt="Scratch Repair & Refinishing"
                 fill
                 className="object-cover rounded-lg"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
                 unoptimized
               />
             </div>

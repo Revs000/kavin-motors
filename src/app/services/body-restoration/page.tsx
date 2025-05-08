@@ -6,11 +6,22 @@ export default function BodyRestorationPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[80vh] bg-gray-900">
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      <section className="relative h-[50vh] md:h-[60vh]">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2070&auto=format&fit=crop"
+            alt="Full Body Restoration"
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 768px) 100vw, 100vw"
+            unoptimized
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Full Body Restoration</h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Transform your classic car to its former glory with our expert restoration services</p>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Full Body Restoration</h1>
+          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl">Transform your classic car to its former glory with our expert restoration services</p>
         </div>
       </section>
 
@@ -44,12 +55,13 @@ export default function BodyRestorationPage() {
                 </ul>
               </div>
             </div>
-            <div className="relative h-[400px]">
+            <div className="relative h-[300px] md:h-[400px]">
               <Image
                 src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2070&auto=format&fit=crop"
                 alt="Restoration Process"
                 fill
                 className="object-cover rounded-lg"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 unoptimized
               />
             </div>
@@ -141,12 +153,13 @@ export default function BodyRestorationPage() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Services Included</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+              <div className="relative h-[200px] md:h-[250px] mb-4 rounded-lg overflow-hidden">
                 <Image
                   src="/images/bodywork.jpg"
                   alt="Body Work"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   unoptimized
                 />
               </div>

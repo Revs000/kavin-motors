@@ -12,10 +12,12 @@ export default function AboutPage() {
             src="/images/story-excellence.jpg"
             alt="Our Team"
             fill
-            className="object-cover brightness-50"
+            className="object-cover"
             priority
+            sizes="100vw"
             unoptimized
           />
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         <div className="relative container mx-auto px-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black text-white mb-4 sm:mb-6 text-center tracking-tight">

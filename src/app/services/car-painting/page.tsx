@@ -6,21 +6,22 @@ export default function CarPaintingPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[80vh]">
+      <section className="relative h-[50vh] md:h-[60vh]">
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2070&auto=format&fit=crop"
             alt="Car Painting Service"
             fill
-            className="object-cover brightness-75"
+            className="object-cover"
             priority
+            sizes="(max-width: 768px) 100vw, 100vw"
             unoptimized
           />
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Car Painting Services</h1>
-          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">Professional car painting with precision and quality</p>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Car Painting Services</h1>
+          <p className="text-lg md:text-xl text-white mb-8 max-w-2xl">Professional car painting with precision and quality</p>
         </div>
       </section>
 
