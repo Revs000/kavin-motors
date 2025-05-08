@@ -9,7 +9,7 @@ export default function ContactPage() {
       <section className="relative h-[50vh] md:h-[60vh]">
         <div className="absolute inset-0">
           <Image
-            src="/images/contact-hero.jp.jpg"
+            src="/images/contact-hero.jpg"
             alt="Contact Us"
             fill
             className="object-cover"

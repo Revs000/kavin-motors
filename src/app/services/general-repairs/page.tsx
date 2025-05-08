@@ -51,7 +51,7 @@ export default function GeneralRepairsPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/Brake service.jpg"
+                  src="/images/brake-service.jpg"
                   alt="Brake Service"
                   fill
                   className="object-cover"
